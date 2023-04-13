@@ -1,6 +1,9 @@
 package pro.sky.java.cours2.calculator;
 
-public interface CalculatorServiceInterface {
+public interface CalculatorService {
     String answerWelcom();
-    int calculatorSum(int num1,int num2);
+    String calculatorSum(int num1,int num2);
+    String calculatorSubtraction(int num1,int num2);
+    String calculatorMultiply(int num1,int num2);
+    String calculatorDivide(int num1,int num2);
 }
