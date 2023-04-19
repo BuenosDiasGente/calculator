@@ -33,5 +33,4 @@ public class CalculatorController {
         return calculatorService.calculatorDivide(num1,num2);
     }
 
-
 }
